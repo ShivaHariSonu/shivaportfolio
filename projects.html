@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Projects • Shiva Hari Gundeti</title>
+  <meta name="description" content="Engineering and machine learning projects by Shiva Hari Gundeti.">
+  <meta name="theme-color" content="#fbfaf9">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.jpg" rel="icon">
+  <link href="assets/img/logo.jpg" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+
+  <!-- Theme init (before paint, avoids flash of wrong theme) -->
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem("theme");
+        var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+        var theme = stored || (prefersDark ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (e) {}
+    })();
+  </script>
+
+  <!-- Main stylesheet -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Decorative multi-color gradient blobs -->
+  <div class="bg-blobs" aria-hidden="true">
+    <span class="b1"></span>
+    <span class="b2"></span>
+    <span class="b3"></span>
+    <span class="b4"></span>
+    <span class="b5"></span>
+    <span class="b6"></span>
+  </div>
+
+  <!-- ======= Sticky Nav ======= -->
+  <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <!-- <a class="nav-logo" href="index.html">
+        <img src="assets/img/shivalogo.png" alt="" width="30" height="30">
+        <span>Shiva Hari Gundeti</span>
+      </a> -->
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="experience.html">Experience</a>
+        <a href="projects.html" aria-current="page" class="is-active">Projects</a>
+        <a href="blogs.html">Blogs</a>
+        <a href="books.html">Books</a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <!-- ======= Projects (publication-style entries) ======= -->
+    <section id="projects" class="section reveal page-section-first">
+      <h2 class="section-heading">Projects</h2>
+      <p class="section-intro">A selection of engineering and ML projects. See more on <a href="https://github.com/ShivaHariSonu" target="_blank" rel="noopener">GitHub</a>.</p>
+      <div class="pub-list">
+
+        <div class="pub-entry">
+          <div class="pub-fig"><img src="assets/img/seismograph.png" alt="Seismic Events Classification"></div>
+          <div class="pub-body">
+            <div class="pub-title">Seismic Events Classification</div>
+            <div class="pub-tags">Deep Learning · Bayesian ML</div>
+            <p class="pub-desc">Implemented the SWA-Gaussian (SWAG) algorithm for uncertainty quantification and calibration in classification tasks, achieving improved out-of-sample detection and posterior probability calibration through Bayesian model averaging.</p>
+            <div class="pub-actions">
+              <a href="https://github.com/ShivaHariSonu/eqBlast" target="_blank" rel="noopener">[Code]</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-entry">
+          <div class="pub-fig"><img src="assets/img/msthesis.png" alt="Deep Learning based Localization"></div>
+          <div class="pub-body">
+            <div class="pub-title">Deep Learning based Localization</div>
+            <div class="pub-tags">Machine Learning · Deep Learning</div>
+            <p class="pub-desc">Performed adversarial training on image data to improve accuracy of out-of-domain detection by 10%. Increased the accuracy of a U-Net CNN model by 22% using a Wasserstein-distance loss function for localization.</p>
+            <div class="pub-actions">
+              <a href="#" target="_blank" rel="noopener">[Write-up coming soon]</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-entry">
+          <div class="pub-fig"><img src="assets/img/ecommerce.jpg" alt="Query Intelligence for E-Commerce platforms"></div>
+          <div class="pub-body">
+            <div class="pub-title">Query Intelligence for E-Commerce Platforms</div>
+            <div class="pub-tags">Search · Development</div>
+            <p class="pub-desc">Preprocessed user click data to perform product ranking. Captured relevant keywords from user logs and trained a regression model to improve the search scoring function, using PySpark and SQL for data preprocessing and Solr for search.</p>
+            <div class="pub-actions">
+              <a href="https://github.com/ShivaHariSonu/semantic-search" target="_blank" rel="noopener">[Code]</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer class="site-footer">
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <a href="index.html">Home</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="blogs.html">Blogs</a>
+      <a href="books.html">Books</a>
+    </nav>
+    <div class="copyright">&copy; Shiva Hari Gundeti 2026.</div>
+  </footer>
+
+  <a href="#main" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+  </a>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
