@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Experience • Shiva Hari Gundeti</title>
+  <meta name="description" content="Work experience and research roles of Shiva Hari Gundeti.">
+  <meta name="theme-color" content="#fbfaf9">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.jpg" rel="icon">
+  <link href="assets/img/logo.jpg" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+
+  <!-- Theme init (before paint, avoids flash of wrong theme) -->
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem("theme");
+        var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+        var theme = stored || (prefersDark ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (e) {}
+    })();
+  </script>
+
+  <!-- Main stylesheet -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Decorative multi-color gradient blobs -->
+  <div class="bg-blobs" aria-hidden="true">
+    <span class="b1"></span>
+    <span class="b2"></span>
+    <span class="b3"></span>
+    <span class="b4"></span>
+    <span class="b5"></span>
+    <span class="b6"></span>
+  </div>
+
+  <!-- ======= Sticky Nav ======= -->
+  <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <!-- <a class="nav-logo" href="index.html">
+        <img src="assets/img/shivalogo.png" alt="" width="30" height="30">
+        <span>Shiva Hari Gundeti</span>
+      </a> -->
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="experience.html" aria-current="page" class="is-active">Experience</a>
+        <a href="projects.html">Projects</a>
+        <a href="blogs.html">Blogs</a>
+        <a href="books.html">Books</a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <!-- ======= Experience ======= -->
+    <section id="experience" class="section reveal page-section-first">
+      <h2 class="section-heading">Experience</h2>
+      <ul class="timeline-list">
+
+        <li class="timeline-item">
+          <div class="timeline-role">Software Engineer (ICT 3) — Apple</div>
+          <div class="timeline-meta">Oct 2025 – Present · Austin, Texas, USA</div>
+          <ul>
+            <li>Created a full-stack batch data transformation application to perform Retail Store Replenishment calculations using Gurobi Solver and SingleStoreDB.</li>
+            <li>Migrated the application from the old Oracle PL/SQL stack to Polars for small-scale and Spark for large-scale data transformations. Built Airflow DAGs to schedule ETL jobs from AWS S3 to SingleStore tables.</li>
+            <li>Developed AI agents that support OIDC authorization for a chatbot with MCP tools, and trigger alerts from anomalies.</li>
+          </ul>
+          <div class="timeline-tags">
+            <span>Python</span><span>React</span><span>SingleStore DB</span><span>Airflow</span><span>Docker</span><span>Gurobi Solver</span><span>Polars</span><span>PySpark</span>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-role">Analyst — Goldman Sachs</div>
+          <div class="timeline-meta">Jun 2025 – Oct 2025 · Salt Lake City, Utah, USA</div>
+          <ul>
+            <li><strong>Corporate Action and Booking Workflow:</strong> Set up the credit desk for Callisto, an eventually consistent distributed system that manages bookings for various corporate actions.</li>
+            <li>Optimized system throughput and managed workflows to ensure data integrity across global trading systems.</li>
+          </ul>
+          <div class="timeline-tags">
+            <span>Java</span><span>Spring Boot</span><span>Load Balancers</span><span>Slang</span><span>SecDB</span>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-role">Graduate Research Assistant — University of Utah Health</div>
+          <div class="timeline-meta">Jan 2025 – Present</div>
+          <ul>
+            <li>Created a full-stack application to visualize time-series forecasts of diseases with interactive geomaps using Plotly.</li>
+            <li>Integrated streaming data with historical database records for model training, storing predictions in PostgreSQL.</li>
+            <li>Deployed on Google Cloud Run in a Dockerized environment, with automated CI/CD pipelines via GitHub Actions.</li>
+          </ul>
+          <div class="timeline-tags">
+            <span>Python</span><span>Django</span><span>React</span><span>PostgreSQL</span><span>Kafka</span><span>Plotly</span><span>Darts</span>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-role">Student Research Assistant — Seismograph Stations, University of Utah</div>
+          <div class="timeline-meta">Feb 2024 – Aug 2024</div>
+          <ul>
+            <li>Developed a CNN and LSTM architecture for spectrogram classification on mining and earthquake signals, attaining 95.8% accuracy.</li>
+            <li>Researched weight initialization techniques (Xavier, He, Normal) and activation functions to mitigate vanishing/exploding gradients.</li>
+            <li>Implemented Stochastic Weight Averaging Gaussian (SWAG) to improve generalization, achieving 97.3% test accuracy.</li>
+            <li>Performed Multi-SWAG inference using an ensemble of CNN, LeNet and PreResNet models to improve calibration.</li>
+          </ul>
+          <div class="timeline-tags">
+            <span>PyTorch</span><span>CNN</span><span>LSTM</span><span>Bayesian ML</span>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-role">Software Development Engineer 2 — Brane Enterprises</div>
+          <div class="timeline-meta">Jan 2023 – Jun 2023</div>
+          <ul>
+            <li>Built an indexing service to architect OLAP pipelines using Apache Flink, streaming data in real-time to Elasticsearch with a p99 latency of 178ms.</li>
+            <li>Architected OLAP pipelines with Kafka and Flink to capture user clicks to AWS S3; integrated with Apache Superset via Athena for dashboard analytics.</li>
+            <li>Built a POC to extract semantic words by training a Word2Vec (CBoW) model; created Neo4J knowledge graphs for semantic search.</li>
+            <li>Mentored 3 engineers on the Search and Data Pipeline ecosystem, and led knowledge-transfer sessions and code reviews.</li>
+          </ul>
+          <div class="timeline-tags">
+            <span>Apache Flink</span><span>Kafka</span><span>Elasticsearch</span><span>Neo4J</span><span>Word2Vec</span>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-role">Software Development Engineer — Brane Enterprises</div>
+          <div class="timeline-meta">Apr 2021 – Jan 2023</div>
+          <ul>
+            <li>Developed a faceted-search and typeahead application leveraging Elasticsearch across 60M+ records at 80-180ms latency, multi-tenant and multi-language.</li>
+            <li>Built a Kafka-based notification system with AWS SNS, SQS and Airflow, handling 10k notifications/day.</li>
+            <li>Implemented AOP to enhance REST APIs with auditing and metering across 50+ microservices, streaming usage data via Kafka to Druid.</li>
+            <li>Performed database migrations (DynamoDB → MongoDB, Elasticsearch → MongoDB) handling schema changes with backward/forward compatibility.</li>
+            <li>Enriched an in-house query language (EQL) by routing complex queries to AWS Athena/S3, reducing latency by 25%.</li>
+            <li>Increased code coverage from 35% to 97% via JUnit, integration tests, and SonarQube fixes.</li>
+          </ul>
+          <div class="timeline-tags">
+            <span>Elasticsearch</span><span>Kafka</span><span>AWS</span><span>MongoDB</span><span>Druid</span>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-role">Software Development Engineering Intern — Chamber of Products</div>
+          <div class="timeline-meta">Apr 2020 – Jun 2020</div>
+          <ul>
+            <li>Deployed and integrated Redis to reduce API latency, using HashKey to store volatile data.</li>
+            <li>Improved user login with Bearer-token-based authentication and OAuth2-based authorization.</li>
+            <li>Implemented security features across services and data stores, including SSL and secret manager integration.</li>
+          </ul>
+          <div class="timeline-tags">
+            <span>Redis</span><span>OAuth2</span><span>Security</span>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer class="site-footer">
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <a href="index.html">Home</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="blogs.html">Blogs</a>
+      <a href="books.html">Books</a>
+    </nav>
+    <div class="copyright">&copy; Shiva Hari Gundeti 2026.</div>
+  </footer>
+
+  <a href="#main" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+  </a>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
